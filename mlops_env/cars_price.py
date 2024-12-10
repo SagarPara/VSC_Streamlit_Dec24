@@ -5,7 +5,7 @@ import datetime
 import pickle
 #import sklearn
 
-cars_df = pd.read_csv(".\cars24-car-price.csv")
+cars_df = pd.read_csv("cars24-car-price.csv")
 
 st.title("Car Resale Price Prediction")
 st.dataframe(cars_df.head())
